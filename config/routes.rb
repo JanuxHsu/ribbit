@@ -1,4 +1,7 @@
-Ribbit::Application.routes.draw do
+Ribbitapp::Application.routes.draw do
+  resources :ribbits
+
+
   resources :sessions
   resources :users
 
